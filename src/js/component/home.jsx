@@ -8,12 +8,6 @@ const Home = () => {
 	const[tasks,setTasks] = useState([]);
     const[newTask,setNewTask]=useState("");
 	
-	function mouseInside(){
-		return
-	}
-	function mouseOut(){
-		return
-	}
 	function pressEnter(e){
 		e.key === "Enter"
 		? addTask()
